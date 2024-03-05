@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "version": "0.0.111",
+  "name": "audioObjectTest",
+  "description": "audioObjectTest.",
+  "experiment_apis": {
+    "bootstrap": {
+      "schema": "experimental-api/schema.json",
+      "parent": {
+        "scopes": ["addon_parent"],
+        "paths": [["bootstrap"]],
+        "script": "experimental-api/api.js"
+      }
+    }
+  },
+  "background": { "scripts": ["background.js"] },
+  "applications": {
+    "gecko": {
+      "id": "audioObjectTest111@LukaszPolowczyk",
+      "strict_min_version": "123.0"
+    }
+  }
+}

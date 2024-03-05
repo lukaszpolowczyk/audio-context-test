@@ -1,0 +1,15 @@
+[
+  {
+    "namespace": "bootstrap",
+    "functions": [
+      {
+        "name": "loadScript",
+        "type": "function",
+        "parameters": [],
+        "async": true,
+        "description": "loadScript."
+      }
+    ],
+    "types": []
+  }
+]

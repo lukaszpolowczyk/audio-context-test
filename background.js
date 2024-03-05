@@ -1,0 +1,1 @@
+browser.bootstrap.loadScript();
